@@ -1,6 +1,25 @@
-$(document).ready(function(){
-  //default player's turn to X
-  var turn = "X";
-  //array that stores values that we will check later for a winner
-});
-$("#")
+<div class="container text-center">
+  <a class="btn btn-primary" id="turnX">Turn X</a>
+  <a class="btn btn-secondary" id="turnO">Turn O</a>
+  <div class="row">
+    <div class="col-md-6">
+      <a class="btn btn-primary tic" id="0">#</a>
+      <a class="btn btn-primary tic" id="1">#</a>
+      <a class="btn btn-primary tic" id="2">#</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <a class="btn btn-primary tic" id="3">#</a>
+      <a class="btn btn-primary tic" id="4">#</a>
+      <a class="btn btn-primary tic" id="5">#</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <a class="btn btn-primary tic" id="6">#</a>
+      <a class="btn btn-primary tic" id="7">#</a>
+      <a class="btn btn-primary tic" id="8">#</a>
+    </div>
+  </div>
+</div>
